@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Import Documents" qualified_name="orangecontrib.text.widgets.owimportdocuments.OWImportDocuments" project_name="Orange3-Text" version="" title="Import Documents" position="(216.0, 100.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(334.0, 108.0)" />
+		<node id="2" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(430.0, 111.0)" />
+		<node id="3" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(563.0, 115.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Selected Data" sink_channel="Corpus" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVnQEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAtjdXJyZW50UGF0aJSMXEM6L1Vz
+ZXJzL3NpbW9uL1Byb2pla3RpL09yYW5nZS/FoW9sc2thIGJlc2VkaWxhL1Zpc2/FoWthIGtyb25p
+a2EvUmF6ZGVsamVuYSB2aXNvxaFrYSBrcm9uaWthlIwMcmVjZW50X3BhdGhzlF2UjB5vcmFuZ2V3
+aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNwYXRolGgD
+jAZwcmVmaXiUTowHcmVscGF0aJROjAV0aXRsZZSMAJSMBXNoZWV0lGgPjAtmaWxlX2Zvcm1hdJRO
+dWJhjAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAABRQAA
+ALcAAAJ8AAABZQAAAUYAAADOAAACewAAAWQAAAAAAAAAAAPAAAABRgAAAM4AAAJ7AAABZJSMBnNv
+dXJjZZRLAIwLX192ZXJzaW9uX1+USwF1Lg==
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xa1\x00\x00\x00)\x00\x00\x03 \x00\x00\x02\x08\x00\x00\x00\xa1\x00\x00\x00)\x00\x00\x03 \x00\x00\x02\x08\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0\x00\x00\x00\xa1\x00\x00\x00)\x00\x00\x03 \x00\x00\x02\x08', 'select_rows': True, 'selected_cols': [0, 1, 2], 'selected_rows': [4, 6, 7, 8, 10, 11, 13], 'show_attribute_labels': True, 'show_distributions': True, '__version__': 2}</properties>
+		<properties node_id="2" format="pickle">gASVtQMAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAKYAAAADAAADXQAAAfoAAACnAAAAGgAAA1wAAAH5
+AAAAAAAAAAADwAAAAKcAAAAaAAADXAAAAfmUjA5zdG9yZWRzZXR0aW5nc5R9lCiMBG5hbWWUjACU
+jA1wcmVwcm9jZXNzb3JzlF2UKIwUcHJlcHJvY2Vzcy50cmFuc2Zvcm2UfZSMB21ldGhvZHOUXZQo
+SwBLAksDZXOGlIwTcHJlcHJvY2Vzcy50b2tlbml6ZZR9lIaUjBRwcmVwcm9jZXNzLm5vcm1hbGl6
+ZZR9lIaUjBFwcmVwcm9jZXNzLmZpbHRlcpR9lCiMB2Fic19lbmSUSwqMCWFic19zdGFydJRLAYwJ
+ZnJlcV90eXBllEsAjAtpbnZhbGlkYXRlZJRHP+fbeoL5RmiMCGxhbmd1YWdllIwHU2xvdmVuZZSM
+B2x4X2xpc3SUXZSMB2x4X3BhdGiUTowHbWV0aG9kc5RdlEsAYYwIbl90b2tlbnOUS2SMB3BhdHRl
+cm6UjFhcLnwsfDp8O3whfFw/fFwofFwpfFx8fFwrfCd8InzigJh84oCZfOKAnHzigJ18J3xc4oCZ
+fOKApnxcLXzigJN84oCUfFwkfCZ8XCp8Pnw8fFwvfFxbfFxdlIwHcmVsX2VuZJRHP+zMzMzMzM2M
+CXJlbF9zdGFydJRHP7mZmZmZmZqMB3N3X2xpc3SUXZQojB5vcmFuZ2V3aWRnZXQudXRpbHMuZmls
+ZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNwYXRolIxCQzovVXNlcnMvc2ltb24v
+UHJvamVrdGkvT3JhbmdlL3phIGl6cmV6b3ZhbmplIHBvZGF0a292L3Zlem5pa2kudHh0lIwGcHJl
+Zml4lE6MB3JlbHBhdGiUTowFdGl0bGWUaAiMBXNoZWV0lGgIjAtmaWxlX2Zvcm1hdJROdWJoLCmB
+lH2UKGgvjDxGOi9zaW1vbi9Qcm9qZWt0aS9PcmFuZ2UvemEgaXpyZXpvdmFuamUgcG9kYXRrb3Yv
+dmV6bmlraS50eHSUaDFOaDJOaDNoCGg0aAhoNU51YmWMB3N3X3BhdGiUaC11hpSMEXByZXByb2Nl
+c3MubmdyYW1zlH2UhpSMB3RhZy5wb3OUfZSGlGV1jAtfX3ZlcnNpb25fX5RLA3Uu
+</properties>
+		<properties node_id="3" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAACnAAAAEAAAAygAAAIHAAAAqAAAACcAAAMnAAACBgAAAAAAAAAAA8AAAACo
+AAAAJwAAAycAAAIGlIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
+bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
